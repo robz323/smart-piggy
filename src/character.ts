@@ -34,6 +34,9 @@ export const character: Character = {
       : []),
     ...(process.env.TELEGRAM_BOT_TOKEN?.trim() ? ['@elizaos/plugin-telegram'] : []),
 
+    // Blockchain plugins
+    ...(process.env.STARKNET_PRIVATE_KEY?.trim() ? ['@elizaos/plugin-starknet'] : []),
+
     // Bootstrap plugin
     ...(!process.env.IGNORE_BOOTSTRAP ? ['@elizaos/plugin-bootstrap'] : []),
   ],
@@ -87,7 +90,13 @@ export const character: Character = {
     'Email and PIN wallets',
     'Digital savings discipline',
     'Cryptocurrency for beginners',
-    'Modern saving tools'
+    'Modern saving tools',
+    'Starknet blockchain',
+    'Smart contracts',
+    'DeFi protocols',
+    'Blockchain security',
+    'Zero-knowledge proofs',
+    'Layer 2 scaling'
   ],
   messageExamples: [
     [

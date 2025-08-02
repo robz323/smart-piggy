@@ -33,6 +33,7 @@
     "@elizaos/plugin-bootstrap": "latest",
     "@elizaos/plugin-ollama": "^1.2.3",
     "@elizaos/plugin-sql": "latest",
+    "@elizaos/plugin-starknet": "^1.0.0",
     "@elizaos/plugin-telegram": "^1.0.9",
     "@tanstack/react-query": "^5.29.0",
     "clsx": "^2.1.1",
